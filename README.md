@@ -164,7 +164,7 @@ VendingMachine-SmartContract
 
 # 👨‍💻 Author
 
-**Ujjwal Singh**
+**Ujjwal Kumar**
 
 Computer Science Engineer interested in:
 
@@ -192,5 +192,5 @@ Below is the implementation of the Vending Machine smart contract written in Sol
 The contract was deployed and tested using **Remix IDE**.  
 Below is the successful deployment and soda purchase transaction.
 
-![Deployment and Transaction](screenshots/Screenshot 2026-03-14 020813.png)
+![Deployment and Transaction](screenshots/run-and-deployed.png)
 
