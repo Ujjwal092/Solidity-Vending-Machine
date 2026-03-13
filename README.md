@@ -187,3 +187,10 @@ Possible improvements for this project:
 Below is the implementation of the Vending Machine smart contract written in Solidity.
 
 ![Remix Code](screenshots/remix-ide-1.png)
+## Smart Contract Deployment & Transaction
+
+The contract was deployed and tested using **Remix IDE**.  
+Below is the successful deployment and soda purchase transaction.
+
+![Deployment and Transaction](screenshots/Screenshot 2026-03-14 020813.png)
+
