@@ -182,3 +182,8 @@ Possible improvements for this project:
 * Add **frontend (React + ethers.js)**
 * Add **Hardhat tests**
 * Add **inventory price control**
+## Smart Contract Code (Remix IDE)
+
+Below is the implementation of the Vending Machine smart contract written in Solidity.
+
+![Remix Code](screenshots/remix-ide1.png)
