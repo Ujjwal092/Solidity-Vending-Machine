@@ -186,4 +186,4 @@ Possible improvements for this project:
 
 Below is the implementation of the Vending Machine smart contract written in Solidity.
 
-![Remix Code](screenshots/remix-ide1.png)
+![Remix Code](screenshots/remix-ide-1.png)
