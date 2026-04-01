@@ -1,0 +1,10 @@
+{
+  "crypto.sol": {
+    "__sources__": {
+      "crypto.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.13;\r\n\r\ncontract UjjwalCoin{\r\n    //har kisi adddress ke pass kitna balnce h \r\n    mapping(address => uint) public balance;\r\n    address public owner;\r\n    \r\n    modifier onlyOwner() {\r\n        require(owner == msg.sender , \"You are not owner\");\r\n        _;\r\n    }\r\n    constructor(){\r\n        owner = msg.sender; //deployer of the contract\r\n        balance[msg.sender] = 1000; //balance of sender 1000\r\n    }\r\n\r\n    //minting the token\r\n    function mint(uint amount) public onlyOwner{\r\n        balance[owner] += amount; //balance of owner will be increase by amount\r\n    }\r\n\r\n//sender sending to some address \r\n    function transfer(address _to, uint amount) public {\r\n        //check balance of sender is there or not\r\n        require(balance[msg.sender] >= amount, \"Insufficient balance\"); \r\n        //if balance is less than amount then only it will throw error]);\r\n        balance[msg.sender] -= amount; //balance of sender will be decrease by amount\r\n        balance[_to] += amount; //balance of receiver will be increase by amount\r\n    }\r\n\r\n    }\r\n",
+        "file": "crypto.sol"
+      }
+    }
+  }
+}
